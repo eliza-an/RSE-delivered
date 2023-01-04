@@ -1,0 +1,72 @@
+#navmenu{
+text-decoration: underline !important;
+color: black;
+justify-content: space-evenly !important;
+padding: 30px;
+font-weight: bold;
+}
+ 
+#navmenu a{
+    color: black !important;  
+    
+}
+
+
+h1{
+    padding-top:20px;
+    font-size: 80px;
+    padding-left: 30px;
+    grid-area: headersss;
+    display:grid;
+}
+
+.rse{
+    border: 1px solid; 
+    margin: 70px;
+    margin-top: 30px;
+    display:grid;
+    grid-template-areas: 
+    "headersss birth"
+    "text birth"
+    "newtext birth";
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+   
+    
+}
+.rse p{
+    font-size: 20px;
+    grid-area: text;
+    display:grid;
+    padding-right: 20px;
+    padding-left: 30px;
+    font-size: 30px;
+    
+}
+
+.birth-control{
+    max-width: 340px;
+    height:400px;
+    object-fit: cover;
+    padding: 30px;
+    display:grid;
+    grid-area: birth;
+ 
+}
+.socials{
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.socials p{
+    font-size: 20px;
+    padding-left: 10px !important ;
+    font-weight: bold;
+    
+}
+
+.first{
+background-color: antiquewhite;
+padding-bottom: 20px;
+}
