@@ -4,6 +4,7 @@ color: black;
 justify-content: space-evenly !important;
 padding: 30px;
 font-weight: bold;
+
 }
  
 #navmenu a{
@@ -30,7 +31,7 @@ h1{
     "text birth"
     "newtext birth";
 
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:sans-serif;
    
     
 }
@@ -38,9 +39,9 @@ h1{
     font-size: 20px;
     grid-area: text;
     display:grid;
-    padding-right: 20px;
+    padding-right: 100px;
     padding-left: 30px;
-    font-size: 30px;
+    font-size: 26px;
     
 }
 
@@ -75,7 +76,7 @@ padding-bottom: 20px;
  .second{
     background-color: #231f20;
     color: #e7dfd8;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:sans-serif;
     padding-left: 70px;
     display: grid;
     grid-template-areas: "texting woods"
@@ -103,3 +104,65 @@ padding-bottom: 20px;
     margin-right: 90px;
   
  }
+
+ /*Third section*/
+ .third{
+    background-color: #efdfd8;
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "services services services"
+    "training teaching curr"
+    ;
+    padding: 20px;
+    font-family:sans-serif;
+    color:#231f20;
+ }
+
+ .heading3{
+
+  display: grid;
+  grid-area: services;
+ justify-content: center;
+ padding: 10px;
+ }
+
+ .card{
+    border: none !important;
+    background-color: #efdfd8;
+    padding: 35px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    
+ }
+ h4{
+    text-decoration: underline;
+    padding: 10px;
+ }
+
+
+#contact-us{
+    margin-top: 60px;
+    background-color: #231f20;
+    font-size: 20px;
+    border-radius: 0;
+    border: none;
+    font-family:sans-serif;
+
+}
+
+/*hor to contact section*/
+.howtocontact{
+    margin: 0 !important;
+}
+#blackback{
+    background-color: #231f20 !important;
+    
+}
+
+#card2{
+    padding: 0 !important;
+    color: #e7dfd8;
+}
