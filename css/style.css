@@ -30,7 +30,7 @@ h1{
     "text birth"
     "newtext birth";
 
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
     
 }
@@ -70,3 +70,36 @@ h1{
 background-color: antiquewhite;
 padding-bottom: 20px;
 }
+
+/*second section*/
+ .second{
+    background-color: #231f20;
+    color: #e7dfd8;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 70px;
+    display: grid;
+    grid-template-areas: "texting woods"
+    
+ }
+
+ .textonly{
+ display: grid;
+ grid-area: texting;
+ margin-left: 100px;
+ margin-right: 233px;
+ margin-top: 10px;
+ 
+
+ }
+
+
+ .woods{
+    max-width: 400px;
+    height:490px;
+    object-fit: cover;
+    display: grid;
+    grid-area: woods;
+    margin-top: 90px;
+    margin-right: 90px;
+  
+ }
