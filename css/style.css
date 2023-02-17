@@ -6,6 +6,9 @@ padding: 30px;
 font-weight: bold;
 
 }
+.fa-brands{
+    color: black !important;
+}
  
 #navmenu a{
     color: black !important;  
@@ -21,6 +24,9 @@ h1{
     display:grid;
 }
 
+a{
+    text-decoration: none;
+}
 .rse{
     border: 1px solid; 
     margin: 70px;
@@ -208,6 +214,7 @@ padding-bottom: 20px;
   html, body {
     margin: 0;
     height: 100%;
+
 }
 /* first section css media queery*/
 .first{
@@ -216,13 +223,17 @@ padding-bottom: 20px;
     
 }
 
+.header{
+    padding: 10px;
+}
 
 .text{
     display: block;
     font-size: 23px !important ;
     text-align: center !important;
-    padding-left: 0% !important;
-    padding-right: 0% !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    
 
 }
 
@@ -258,6 +269,7 @@ padding-bottom: 20px;
     height: 350px;
     background-color: grey;
     margin-top:30px !important;
+    max-width: 100%;
 
 }
 
@@ -295,7 +307,7 @@ padding:20px !important;
 }
 
 h3{
-    font-size:35px;
+    font-size:32px;
 }
 
 
@@ -310,4 +322,13 @@ padding:0;
     justify-content: center;
     display: flex;
     margin: 0 !important;
+}
+
+/*fourth section*/
+#blackback{
+    padding: 15px !important;
+}
+
+.card-title{
+    font-size: 37px;
 }
