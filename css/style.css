@@ -6,6 +6,9 @@ padding: 30px;
 font-weight: bold;
 
 }
+.fa-brands{
+    color: black !important;
+}
  
 #navmenu a{
     color: black !important;  
@@ -21,6 +24,9 @@ h1{
     display:grid;
 }
 
+a{
+    text-decoration: none;
+}
 .rse{
     border: 1px solid; 
     margin: 70px;
@@ -46,7 +52,7 @@ h1{
 }
 
 .birth-control{
-    max-width: 340px;
+   max-width: 100%;
     height:400px;
     object-fit: cover;
     padding: 30px;
@@ -68,7 +74,7 @@ h1{
 }
 
 .first{
-background-color: antiquewhite;
+background-color: #e7dfd8 ;
 padding-bottom: 20px;
 }
 
@@ -106,8 +112,14 @@ padding-bottom: 20px;
  }
 
  /*Third section*/
+
+ #servicesweachieve{
+    background-color:#e7dfd8;
+ }
+
+
  .third{
-    background-color: #efdfd8;
+    background-color: #e7dfd8;
     display:grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -130,7 +142,7 @@ padding-bottom: 20px;
 
  .card{
     border: none !important;
-    background-color: #efdfd8;
+    background-color: #e7dfd8;
     padding: 35px;
     text-align: center;
     font-weight: bold;
@@ -150,19 +162,173 @@ padding-bottom: 20px;
     border-radius: 0;
     border: none;
     font-family:sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-left: 50%;
 
 }
 
 /*hor to contact section*/
 .howtocontact{
     margin: 0 !important;
+    background-color:#231f20 ;
+    font-family:sans-serif;
 }
 #blackback{
     background-color: #231f20 !important;
+    padding:100px;
     
 }
 
 #card2{
-    padding: 0 !important;
+    
     color: #e7dfd8;
+    padding: 0 !important;
+}
+
+.card-title{
+    font-size: 70px;
+    padding: 30px;
+}
+
+.card-text{
+    font-size: 22px;
+}
+
+#smallbutton{
+    margin-top: 40px;
+    background-color: #e7dfd8;
+    font-size: 20px;
+    border-radius: 0;
+    border: none;
+    font-family:sans-serif;
+    color: #231f20;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 1150px) { 
+    
+  html, body {
+    margin: 0;
+    height: 100%;
+
+}
+/* first section css media queery*/
+.first{
+    max-width: 100%;
+    
+    
+}
+
+.header{
+    padding: 10px;
+}
+
+.text{
+    display: block;
+    font-size: 23px !important ;
+    text-align: center !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    
+
+}
+
+.rse{
+   
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+      font-size: 2px ;
+      margin: 15px;
+}
+
+.birth-control{
+    width: 400px;
+    height: 400px;
+    margin: 0 !important;
+
+}
+
+/*second section css media queery*/
+.second{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    max-width: 100%;
+    padding: 0%;
+    text-align: left;
+    font-weight: bolder;
+    padding: 20px;
+}
+.woods{
+    width: 350px;
+    height: 350px;
+    background-color: grey;
+    margin-top:30px !important;
+    max-width: 100%;
+
+}
+
+.textonly{
+    display: block;
+    margin: 0 !important;
+    padding: 0% !important;
+    
+
+}
+
+.header{
+    font-size: 50px;
+    text-align: left;
+}
+
+.rsemain{
+    margin: 0;
+   
+}
+
+.socials{
+justify-content: center;
+padding: 0% !important;
+}
+
+.rsed{
+padding:20px !important;
+}
+
+.third{
+    vertical-align: top;
+    display: inline-block;
+    font-weight: bolder;
+}
+
+h3{
+    font-size:32px;
+}
+
+
+.card{
+padding:0;
+}
+}
+
+
+/*third section*/
+#contact-us{
+    justify-content: center;
+    display: flex;
+    margin: 0 !important;
+}
+
+/*fourth section*/
+#blackback{
+    padding: 15px !important;
+}
+
+.card-title{
+    font-size: 37px;
 }
