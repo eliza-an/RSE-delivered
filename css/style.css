@@ -200,7 +200,7 @@ padding-bottom: 20px;
     margin: 0;
     height: 100%;
 }
-
+/* first section css media queery*/
 .first{
     max-width: 100%;
     
@@ -233,21 +233,29 @@ padding-bottom: 20px;
 
 }
 
+/*second section css media queery*/
 .second{
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    width: 120px
+    max-width: 100%;
+    padding: 0%;
+    text-align: left;
+    font-weight: bolder;
+    padding: 20px;
 }
 .woods{
-    width: 100px;
-    height: 100px;
+    width: 350px;
+    height: 350px;
     background-color: grey;
+    margin-top:30px !important;
 
 }
 
 .textonly{
     display: block;
+    margin: 0 !important;
+    padding: 0% !important;
     
 
 }
