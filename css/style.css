@@ -156,13 +156,93 @@ padding-bottom: 20px;
 /*hor to contact section*/
 .howtocontact{
     margin: 0 !important;
+    background-color:#231f20 ;
+    font-family:sans-serif;
 }
 #blackback{
     background-color: #231f20 !important;
+    padding:100px;
     
 }
 
 #card2{
-    padding: 0 !important;
+    
     color: #e7dfd8;
+    padding: 0 !important;
+}
+
+.card-title{
+    font-size: 70px;
+    padding: 30px;
+}
+
+.card-text{
+    font-size: 22px;
+}
+
+#smallbutton{
+    margin-top: 40px;
+    background-color: #efdfd8;
+    font-size: 20px;
+    border-radius: 0;
+    border: none;
+    font-family:sans-serif;
+    color: #231f20;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 1150px) { 
+    
+  html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.first{
+    max-width: 100%;
+    
+}
+
+
+.text{
+    display: block;
+}
+
+.rse{
+   
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px
+}
+.birth-control{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+
+}
+
+.second{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px
+}
+.woods{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+
+}
+
+.textonly{
+    display: block;
+}
+
+.header{
+    font-size: small;
+}
 }
