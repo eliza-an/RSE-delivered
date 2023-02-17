@@ -5,9 +5,10 @@ This is the second bootcamp challenge/assignment. This assignment is focused on 
 ## Description
 
 This website is designed fo rthe business RSE. It's main purpose is to represent the company and explain the services offered. 
+This page is currently not active, it is simply a template until the cutom domain is ready
 
 
-Link: https://eliza-an.github.io/Second-challenge-portfolio/ 
+Link: https://eliza-an.github.io/RSE-delivered/ 
 
 
 ## Installation
