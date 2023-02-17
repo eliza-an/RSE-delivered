@@ -68,7 +68,7 @@ h1{
 }
 
 .first{
-background-color: antiquewhite;
+background-color: #e7dfd8 ;
 padding-bottom: 20px;
 }
 
@@ -106,8 +106,14 @@ padding-bottom: 20px;
  }
 
  /*Third section*/
+
+ #servicesweachieve{
+    background-color:#e7dfd8;
+ }
+
+
  .third{
-    background-color: #efdfd8;
+    background-color: #e7dfd8;
     display:grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -130,7 +136,7 @@ padding-bottom: 20px;
 
  .card{
     border: none !important;
-    background-color: #efdfd8;
+    background-color: #e7dfd8;
     padding: 35px;
     text-align: center;
     font-weight: bold;
@@ -150,6 +156,9 @@ padding-bottom: 20px;
     border-radius: 0;
     border: none;
     font-family:sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-left: 50%;
 
 }
 
@@ -182,7 +191,7 @@ padding-bottom: 20px;
 
 #smallbutton{
     margin-top: 40px;
-    background-color: #efdfd8;
+    background-color: #e7dfd8;
     font-size: 20px;
     border-radius: 0;
     border: none;
@@ -278,5 +287,27 @@ padding: 0% !important;
 .rsed{
 padding:20px !important;
 }
+
+.third{
+    vertical-align: top;
+    display: inline-block;
+    font-weight: bolder;
 }
 
+h3{
+    font-size:35px;
+}
+
+
+.card{
+padding:0;
+}
+}
+
+
+/*third section*/
+#contact-us{
+    justify-content: center;
+    display: flex;
+    margin: 0 !important;
+}
