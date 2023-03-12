@@ -173,6 +173,7 @@ padding-bottom: 20px;
     margin: 0 !important;
     background-color:#231f20 ;
     font-family:sans-serif;
+    padding: 70px;
 }
 #blackback{
     background-color: #231f20 !important;
@@ -330,5 +331,7 @@ padding:0;
 }
 
 .card-title{
-    font-size: 37px;
+    font-size: 30px;
+    padding: 50px;
+ 
 }
