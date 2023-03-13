@@ -62,15 +62,15 @@ a{
 }
 .socials{
     font-size: 40px;
-    padding-left: 30px;
-    padding-top: 10px;
+ 
+
 }
 
 .socials p{
     font-size: 20px;
-    padding-left: 10px !important ;
     font-weight: bold;
-    
+    justify-content: center;
+    display: flex;
 }
 
 .first{
@@ -297,9 +297,7 @@ justify-content: center;
 padding: 0% !important;
 }
 
-.rsed{
-padding:20px !important;
-}
+
 
 .third{
     vertical-align: top;
@@ -338,6 +336,19 @@ padding:0;
 
 .logosection{
     background-color: #F4E9DC;
+    justify-content: center;
+    display: flex;
+}
+
+#biglogo{
+    max-width:600px;
+    padding: 90px;
+}
+.rsed{
+    justify-content: center;
+    display: flex;
+}
+.socialicons{
     justify-content: center;
     display: flex;
 }
