@@ -8,6 +8,7 @@ font-weight: bold;
 }
 .fa-brands{
     color: black !important;
+    padding:10px;
 }
  
 #navmenu a{
@@ -85,7 +86,8 @@ padding-bottom: 20px;
     font-family:sans-serif;
     padding-left: 70px;
     display: grid;
-    grid-template-areas: "texting woods"
+    grid-template-areas: "texting woods";
+    padding: 20px;
     
  }
 
@@ -156,16 +158,16 @@ padding-bottom: 20px;
 
 
 #contact-us{
-    margin-top: 60px;
-    background-color: #231f20;
+    margin-top: 40px;
+    background-color:#231f20;
     font-size: 20px;
     border-radius: 0;
     border: none;
     font-family:sans-serif;
-    display: flex;
-    justify-content: center;
-    margin-left: 50%;
-
+    color:  #F4E9DC;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
 }
 
 /*hor to contact section*/
@@ -351,4 +353,7 @@ padding:0;
 .socialicons{
     justify-content: center;
     display: flex;
+}
+.smol{
+    max-width: 70px;
 }
