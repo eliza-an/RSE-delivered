@@ -112,6 +112,14 @@ padding-bottom: 20px;
     margin-right: 90px;
   
  }
+.whole{
+  display: flex;  
+  justify-content: end;
+}
+ .smolblack{
+    display: flex; 
+    justify-content: end;
+ }
 
  /*Third section*/
 
@@ -356,4 +364,8 @@ padding:0;
 }
 .smol{
     max-width: 70px;
+}
+.smolblack{
+    max-width: 70px;
+    justify-content: end;
 }
