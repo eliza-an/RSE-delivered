@@ -344,6 +344,7 @@ justify-content: center;
   html, body {
     margin: 0;
     height: 100%;
+    width: 100%;
 
 }
 /* first section css media queery*/
@@ -397,7 +398,7 @@ justify-content: center;
 .woods{
     width: 350px;
     height: 350px;
-    background-color: grey;
+   
     margin-top:30px !important;
     max-width: 100%;
 
@@ -431,21 +432,25 @@ padding: 0% !important;
 .third{
     vertical-align: top;
     display: inline-block;
-    font-weight: bolder;
     max-width: 100%;
+    padding: 8px;
 }
 
 h3{
     font-size:32px;
+    text-align: center;
 }
 
+.card-title3{
+    font-size: 40px;
+}
 
 .card{
 padding:0;
 }
 
 #biglogo{
-    max-width: 100px;
+    max-width: 350px;
 }
 }
 
@@ -457,3 +462,14 @@ padding:0;
     margin: 0 !important;
 }
 
+.howtocontact{
+    padding: 3px
+}
+
+
+
+@media only screen and (max-width: 300px) { 
+    #biglogo{
+        max-width: 250px;
+    }
+}
