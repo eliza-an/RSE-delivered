@@ -92,15 +92,15 @@ padding-bottom: 20px;
     "text1 smolblack"
     "texting woods"
     ;
-    padding: 40px;
+    padding: 50px;
     
  }
 
  .textonly{
  display: grid;
  grid-area: texting;
- padding:35px;
- font: 20px;
+ padding:20px;
+ font-size: 18px;
 
  }
 
