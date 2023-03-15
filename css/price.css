@@ -1,0 +1,13 @@
+body{
+    padding: 100px;
+}
+
+h1{
+   text-align: center;
+}
+table,th,td{
+    margin: 30px;
+    border: 1px solid;
+    padding: 10px;
+   
+}
