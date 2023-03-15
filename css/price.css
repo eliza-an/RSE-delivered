@@ -1,9 +1,14 @@
 body{
-    padding: 100px;
+  
+background-color: #F4E9DC ;
+
 }
 
 h1{
    text-align: center;
+   font-size: 60px;
+   padding-bottom: 10px;
+   padding-top: 30px;
 }
 table,th,td{
     margin: 30px;
@@ -11,3 +16,35 @@ table,th,td{
     padding: 10px;
    
 }
+
+table{
+    margin-left: 100px;
+    margin-right: 100px;
+    table-layout: fixed ;
+    margin-bottom: 0 !important;
+}
+
+table {
+    table-layout: fixed ;
+  }
+
+
+  td {
+    width: 25% ;
+  }
+
+  #biglogo{
+    max-width:200px;
+    padding: 30px;
+    padding-top: 5px;
+   
+  }
+  .loll{
+    display: flex;
+    justify-content: center;
+  }
+
+  .centre{
+    padding-top: 2px;
+    text-align: center;
+  }
