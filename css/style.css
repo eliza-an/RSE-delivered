@@ -86,40 +86,55 @@ padding-bottom: 20px;
     font-family:sans-serif;
     padding-left: 70px;
     display: grid;
-    grid-template-areas: "texting woods";
-    padding: 20px;
+    grid-template-columns: 40% ,60%;
+    grid-template-rows: 5%, 95% ;
+    grid-template-areas: 
+    "text1 smolblack"
+    "texting woods"
+    ;
+    padding: 40px;
     
  }
 
  .textonly{
  display: grid;
  grid-area: texting;
- margin-left: 100px;
- margin-right: 233px;
- margin-top: 10px;
- 
+ padding:35px;
+ font: 20px;
 
  }
 
 
  .woods{
-    max-width: 400px;
-    height:490px;
+    max-width: 350px;
+    height:440px;
     object-fit: cover;
     display: grid;
     grid-area: woods;
-    margin-top: 90px;
-    margin-right: 90px;
-  
+    padding: 50px;
+    padding-top: 25px;
+    padding-left: 30px
+
  }
+ .text1{
+    grid-area: text1;
+    padding-left: 30px;
+    padding-top: 20px;
+ }
+
+
 .whole{
   display: flex;  
   justify-content: end;
+  grid-area: smolblack;
+  
 }
 
  .smolblack{
     display: flex; 
     justify-content: end;
+    max-width: fit-content;
+    
  }
 
  /*Third section*/
