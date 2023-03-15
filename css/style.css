@@ -116,6 +116,7 @@ padding-bottom: 20px;
   display: flex;  
   justify-content: end;
 }
+
  .smolblack{
     display: flex; 
     justify-content: end;
@@ -131,23 +132,26 @@ padding-bottom: 20px;
  .third{
     background-color: #F4E9DC;
     display:grid;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr ;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
-    "services services services"
+    "teachinginform teachinginform teachinginform"
     "training teaching curr"
+    ". contactus ."
+
+    
     ;
-    padding: 20px;
-    font-family:sans-serif;
+    padding: 40px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color:#231f20;
  }
 
  .heading3{
 
   display: grid;
-  grid-area: services;
+  grid-area: teachinginform;
  justify-content: center;
- padding: 10px;
+ padding: 50px;
  }
 
  .card{
@@ -155,13 +159,14 @@ padding-bottom: 20px;
     background-color: #F4E9DC;
     padding: 35px;
     text-align: center;
-    font-weight: bold;
     padding-top: 10px;
+    font-size: 18px;
     
  }
  h4{
     text-decoration: underline;
     padding: 10px;
+    font-weight: 400;
  }
 
 
@@ -176,6 +181,9 @@ padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
     font-weight: bold;
+    grid-area: contactus;
+ 
+
 }
 
 /*hor to contact section*/
