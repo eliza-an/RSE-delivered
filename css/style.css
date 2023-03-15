@@ -27,6 +27,7 @@ h1{
 
 a{
     text-decoration: none;
+    
 }
 .rse{
     border: 1px solid; 
@@ -244,8 +245,12 @@ padding-bottom: 20px;
 }
 #blackback{
     background-color: #231f20 !important;
-    padding:100px;
+    padding:45px;
     
+}
+.linktoprice{
+    text-decoration: underline;
+    color: #F4E9DC;
 }
 
 #card2{
@@ -285,6 +290,7 @@ padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
     font-weight: bold;
+    margin-bottom: 30px;
 }
 
 
@@ -296,9 +302,7 @@ justify-content: center;
 
 /* logopage */
 /*fourth section*/
-#blackback{
-    padding: 15px !important;
-}
+
 
 .card-title{
     font-size: 30px;
