@@ -432,6 +432,7 @@ padding: 0% !important;
     vertical-align: top;
     display: inline-block;
     font-weight: bolder;
+    max-width: 100%;
 }
 
 h3{
@@ -441,6 +442,10 @@ h3{
 
 .card{
 padding:0;
+}
+
+#biglogo{
+    max-width: 100px;
 }
 }
 
