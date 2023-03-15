@@ -48,3 +48,14 @@ table {
     padding-top: 2px;
     text-align: center;
   }
+
+  @media only screen and (max-width: 1150px) { 
+    table{
+        margin: 30px;
+        font-size: 10px;
+    }
+
+    .centre{
+        font-size: 10px;
+    }
+  }
