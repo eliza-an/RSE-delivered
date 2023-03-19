@@ -1,6 +1,5 @@
 # RSE delivered website
-# Second-bootcamp challenge Portfolio
-This is the second bootcamp challenge/assignment. This assignment is focused on creating an portfolio website that is responsive.
+
 
 ## Description
 
